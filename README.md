@@ -1,14 +1,19 @@
-![Picture](https://github.com/hackherlin/devsupply/tree/master/src/assets/imgs/brand/devsupply_logo.png)
+![Picture](https://postimg.cc/dhTj6WDx)
 
 # DevSupply
 
 ## Table of contents
 
 - [Introduction](#intro)
-- [Roadmap](#roadmap)
+- [Tasks](#tasks)
 
 ## <a name="intro">Introduction</a>
 
 DevSupply is a platform for developers. You can find resources such as code snippets, tutorials, examples and templates.
 
-## <a name="roadmap">Roadmap</a>
+## <a name="tasks">Tasks</a>
+
+🛠 Project setup
+🛠 Logo & Design
+🛠 Development
+🛠 Testing
