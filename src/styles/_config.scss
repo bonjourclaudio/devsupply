@@ -1,3 +1,32 @@
 /* ################################################
 HTML element styling, font settings etc. belongs here
 ################################################ */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import "colors";
+@import "mixins";
+
+$font-primary: "Roboto", sans-serif;
+
+body {
+  background-color: $color-bg;
+  font-family: $font-primary;
+  color: $color-primary;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  @include easeIn();
+  text-decoration: none;
+  color: $color-primary;
+
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+ul,
+li {
+  list-style-type: none;
+}

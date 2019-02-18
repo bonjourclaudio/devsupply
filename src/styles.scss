@@ -2,3 +2,9 @@
 Global styling base file, imports other scss files
 Gets imported by every component
 ################################################ */
+
+@import "styles/config/";
+@import "styles/mobile";
+@import "styles/colors";
+@import "styles/mixins";
+@import "styles/classes";
