@@ -1,4 +1,4 @@
-![Picture](https://i.postimg.cc/CxcrFX0S/devsupply-logo.png)
+![Picture](https://i.postimg.cc/xT29HJzq/devsupply-logo.png)
 
 # DevSupply
 
