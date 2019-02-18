@@ -16,6 +16,7 @@ import { TutorialsComponent } from './pages/resources/tutorials/tutorials.compon
 import { ExamplesComponent } from './pages/resources/examples/examples.component';
 import { TemplatesComponent } from './pages/templates/templates.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     TutorialsComponent,
     ExamplesComponent,
     TemplatesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProfileComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
