@@ -13,7 +13,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 ## <a name="tasks">Tasks</a>
 
-*🛠 Project setup
-*🛠 Logo & Design
-*🛠 Development
-*🛠 Testing
+- 🛠 Project setup
+- 🛠 Logo & Design
+- 🛠 Development
+- 🛠 Testing
