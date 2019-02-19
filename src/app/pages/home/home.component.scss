@@ -1,0 +1,108 @@
+@import "../../../styles.scss";
+
+.header {
+  height: 50vh;
+  text-align: center;
+  position: relative;
+
+  h1 {
+    margin: 50px 0 20px;
+    font-size: 42px;
+    span {
+      font-size: 130%;
+      font-family: $font-secondary;
+      display: block;
+    }
+  }
+
+  h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 20px;
+    width: 76%;
+  }
+}
+
+// WRAPPER
+.wrapper {
+  margin: 0 auto;
+  width: 96%;
+  max-width: 1120px;
+}
+
+// SECTION
+.section {
+  background: white;
+  @include borderShadow();
+  padding: 60px 0;
+
+  // TITLE
+  &__title {
+    font-size: 24px;
+    color: $color-bg;
+    text-align: center;
+    margin: 14px 0;
+  }
+
+  // TEXT INTRO
+  &__intro {
+    color: $color-bg;
+    display: block;
+    text-align: center;
+    margin: 0 5% 30px;
+
+    // media query 700px
+    @media only screen and (min-width: 43.75em) {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+}
+
+// BOX ICONS
+.box {
+  display: flex;
+  flex: 1 0 100%;
+  margin-bottom: 20px;
+  background: lighten($grey, 1);
+  @include borderShadow();
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__more {
+    color: $color-accent;
+  }
+
+  &__content {
+    color: $color-primary;
+    text-align: center;
+    padding: 20px;
+
+    .box__more {
+      i {
+        padding-left: 3px;
+      }
+    }
+
+    &:hover {
+      .box__more {
+        color: darken($color-accent, 5%);
+        i {
+          padding-left: 7px;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+
+  // media query 700px
+  @media only screen and (min-width: 43.75em) {
+    flex: 0 0 30%;
+  }
+}
