@@ -1,3 +1,29 @@
 /* ################################################
 Style global classes here
 ################################################ */
+
+@import "colors";
+
+.text-primary {
+  color: $color-primary;
+}
+
+.text-accent {
+  color: $color-accent;
+}
+
+.text-success {
+  color: $color-success;
+}
+
+.text-warning {
+  color: $color-warning;
+}
+
+.text-danger {
+  color: $color-danger;
+}
+
+.text-light-grey {
+  color: $light-grey;
+}
