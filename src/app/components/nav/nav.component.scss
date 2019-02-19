@@ -1,0 +1,44 @@
+@import "../../../styles.scss";
+
+.nav {
+  margin: 20px;
+  background: $grey;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 4px 1px darken($color: $color-bg, $amount: 5);
+  height: 8vh;
+
+  /* Make divs inline and align content vertically centered*/
+  .nav-brand,
+  .nav-content {
+    line-height: 8vh;
+    display: inline;
+  }
+
+  .nav-brand {
+    .nav-link {
+      font-size: 140%;
+      font-weight: bold;
+
+      #accent {
+        color: $color-accent;
+      }
+    }
+  }
+
+  .nav-content {
+    float: right;
+
+    .nav-link-list {
+      .nav-link-item {
+        font-size: 130%;
+        margin-left: 50px;
+      }
+    }
+  }
+}
+
+.active {
+  color: $color-accent;
+}

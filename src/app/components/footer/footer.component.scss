@@ -1,0 +1,59 @@
+@import "../../../styles.scss";
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  color: $light-grey;
+  height: 20vh;
+  width: 60vw;
+
+  .content {
+    margin-top: 20px;
+  }
+
+  .footer-links {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    display: inline;
+    margin: 10px;
+  }
+
+  .footer-hr {
+    border-top: 1px dashed lighten($grey, 1);
+    border-bottom: 1px dashed lighten($grey, 1);
+    margin: 20px;
+  }
+
+  #icon {
+    @include easeIn();
+    filter: brightness(0.6);
+    width: 30px;
+    &:hover {
+      filter: none;
+      cursor: pointer;
+    }
+  }
+
+  #footer-about {
+    color: $light-grey;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+
+  #footer-gh {
+    color: $light-grey;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
