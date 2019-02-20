@@ -35,6 +35,10 @@
       .nav-link-item {
         font-size: 130%;
         margin-left: 50px;
+
+        i:active {
+          transform: scale(0.92);
+        }
       }
     }
   }

@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class HomeComponent implements OnInit {
   openInput = true;
-  searchValue;
+  searchValue = "";
 
   constructor() {}
 
@@ -19,7 +19,16 @@ export class HomeComponent implements OnInit {
 
   search() {
     // Search....
+    // Open Dialog Component with search results...
     this.searchValue = "";
     this.openInput = !this.openInput;
+  }
+
+  clearInput() {
+    if (this.searchValue == "") {
+      this.openInput = !this.openInput;
+    } else {
+      this.searchValue = "";
+    }
   }
 }

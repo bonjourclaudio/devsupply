@@ -25,6 +25,8 @@
   }
 
   .search {
+    margin-top: 50px;
+
     .search-input {
       font-family: $font-primary;
       font-size: 120%;
@@ -48,6 +50,10 @@
       &:hover {
         cursor: pointer;
         background-color: darken($color-success, 7);
+      }
+
+      &:active {
+        transform: scale(0.97);
       }
     }
 
@@ -110,6 +116,10 @@
   margin-bottom: 20px;
   background: lighten($grey, 1);
   @include borderShadow();
+
+  &:active {
+    transform: scale(0.97);
+  }
 
   &__grid {
     display: flex;
