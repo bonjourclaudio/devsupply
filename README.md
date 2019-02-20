@@ -40,30 +40,29 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 ## <a name="setup">Project structure</a>
 
-├── app
-│   ├── auth
-│   ├── components
-│   │   ├── footer
-│   │   ├── login
-│   │   └── nav
-│   ├── models
-│   ├── pages
-│   │   ├── about
-│   │   ├── blog
-│   │   ├── home
-│   │   ├── login-page
-│   │   ├── page-not-found
-│   │   ├── profile
-│   │   ├── resources
-│   │   │   ├── examples
-│   │   │   ├── snippets
-│   │   │   └── tutorials
-│   │   └── templates
-│   └── services
-├── assets
-│   └── imgs
-│       └── brand
-├── environments
+├── app<br/>
+│   ├── auth<br/>
+│   ├── components<br/>
+│   │   ├── footer<br/>
+│   │   ├── login<br/>
+│   │   └── nav<br/>
+│   ├── models<br/>
+│   ├── pages<br/>
+│   │   ├── about<br/>
+│   │   ├── blog<br/>
+│   │   ├── home<br/>
+│   │   ├── login-page<br/>
+│   │   ├── page-not-found<br/>
+│   │   ├── profile<br/>
+│   │   ├── resources<br/>
+│   │   │   ├── examples<br/>
+│   │   │   ├── snippets<br/>
+│   │   │   └── tutorials<br/>
+│   │   └── templates<br/>
+│   └── services<br/>
+├── assets<br/>
+│   └── imgs<br/>
+├── environments<br/>
 └── styles
 
 
