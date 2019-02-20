@@ -12,10 +12,11 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 # <a name="tasks">Tasks</a>
 
-- 🛠 Project setup
-- 🛠 Logo & Design
-- 🛠 Development
-- 🛠 Testing
+- [x] Project Setup
+- [ ] Logo
+- [x] Design Schema
+- [ ] Development
+- [ ] Testing
 
 # <a name="documentation">Documentation</a>
 
