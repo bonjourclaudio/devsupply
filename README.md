@@ -1,4 +1,4 @@
-![Picture](https://i.postimg.cc/xT29HJzq/devsupply-logo.png)
+![Picture](https://i.postimg.cc/RVNh8SLK/devsupply-logo.png)
 
 # Table of contents :zap:
 
