@@ -14,7 +14,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 - [x] Project Setup
 - [ ] Logo
-- [x] Design Schema
+- [x] [Design Schema](#design)
 - [ ] :seedling: Development:
   * [x] Routing
   * [x] NavigationBar 
@@ -34,6 +34,10 @@ DevSupply is a platform for developers. You can find resources such as code snip
 ...
 
 ## Setup project
+
+...
+
+## <a name="design">Design schema</a>
 
 ...
 
