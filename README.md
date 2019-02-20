@@ -15,7 +15,12 @@ DevSupply is a platform for developers. You can find resources such as code snip
 - [x] Project Setup
 - [ ] Logo
 - [x] Design Schema
-- [ ] Development
+- [ ] Development:
+  * [x] Routing
+  * [x] NavigationBar 
+  * [x] Footer
+  * [ ] Home Page
+  * [ ] ... 
 - [ ] Testing
 
 # <a name="documentation">Documentation</a>
