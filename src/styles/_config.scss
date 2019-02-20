@@ -3,10 +3,16 @@ HTML element styling, font settings etc. belongs here
 ################################################ */
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 @import "colors";
 @import "mixins";
 
 $font-primary: "Roboto", sans-serif;
+$font-secondary: "Dancing Script", cursive;
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: $color-bg;

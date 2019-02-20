@@ -1,1 +1,74 @@
-<h1>Welcome to <span class="">DevSupply</span></h1>
+<section class="header">
+  <h1><span>DevSupply</span>Welcome, developer</h1>
+
+  <h2>
+    DevSupply helps developers with their work, improving their skills and
+    staying up-to-date!
+  </h2>
+
+  <div class="search">
+    <i
+      *ngIf="openInput"
+      (click)="toggleInput()"
+      class="fas fa-search fa-2x"
+    ></i>
+    <i *ngIf="!openInput" (click)="clearInput()" class="fas fa-times fa-2x"></i>
+    <input
+      *ngIf="!openInput"
+      class="search-input"
+      id="search-input"
+      placeholder="Search for a snippet, example, keyword"
+      [(ngModel)]="searchValue"
+      (keydown.enter)="search()"
+      (keydown.esc)="toggleInput()"
+    />
+    <button
+      *ngIf="!openInput"
+      class="search-input-btn"
+      (click)="search()"
+    ></button>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section__title">EXPLORE</h2>
+    <p class="section__intro">
+      Our goal is to build a platform that helps developers with their everyday
+      work. <br />Looking for an Angular-Service example? - DevSupply has it
+      covered.<br />
+      Always curious for new technology and hungry to learn something new? Visit
+      the DevSupply-Blog! <br />DevSupply helps improving your skills!
+    </p>
+    <div class="box__grid">
+      <article class="box">
+        <a class="box__content" routerLink="/resources"
+          ><i class="fas fa-archive fa-3x"></i>
+          <h3 class="box__title">Resources</h3>
+          <p>
+            Here you'll find a wide palette of snippets, examples and tutorials.
+          </p>
+        </a>
+      </article>
+      <article class="box">
+        <a class="box__content" routerLink="/blog"
+          ><i class="fas fa-blog fa-3x"></i>
+          <h3 class="box__title">Blog</h3>
+          <p>
+            Visit our blog for interesting articles created by the community!
+          </p>
+        </a>
+      </article>
+      <article class="box">
+        <a class="box__content" routerLink="/templates"
+          ><i class="fas fa-drafting-compass fa-3x"></i>
+          <h3 class="box__title">Templates</h3>
+          <p>
+            Kickstart your project: Search for a template suiting your idea and
+            get started - don't waste any time!
+          </p>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>

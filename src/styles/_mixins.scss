@@ -2,9 +2,21 @@
 Mixins belong here
 ################################################ */
 
+@import "colors";
+
 @mixin easeIn() {
   -webkit-transition: all 0.1s ease-in;
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
+}
+
+@mixin borderShadow() {
+  border: 1px solid $border;
+  box-shadow: 2px 2px 1px $shadow;
+}
+
+@mixin lightBorderShadow() {
+  border: 3px solid $border;
+  box-shadow: 6px 6px 1px $grey;
 }

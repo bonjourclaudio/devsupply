@@ -1,11 +1,11 @@
 @import "../../../styles.scss";
 
 .nav {
-  margin: 20px;
+  // margin: 20px;
   background: $grey;
   padding-right: 20px;
   padding-left: 20px;
-  border: 1px solid black;
+  border: 1px solid $border;
   box-shadow: 2px 4px 1px darken($color: $color-bg, $amount: 5);
   height: 8vh;
 
@@ -18,8 +18,9 @@
 
   .nav-brand {
     .nav-link {
-      font-size: 140%;
+      font-size: 2em;
       font-weight: bold;
+      font-family: $font-secondary;
 
       #accent {
         color: $color-accent;
@@ -34,6 +35,10 @@
       .nav-link-item {
         font-size: 130%;
         margin-left: 50px;
+
+        i:active {
+          transform: scale(0.92);
+        }
       }
     }
   }
