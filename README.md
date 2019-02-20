@@ -24,9 +24,13 @@ DevSupply is a platform for developers. You can find resources such as code snip
 - [ ] Testing
 
 
+
+
 | Emoji         | Meaning       | 
 | ------------- |:-------------:|
 | :wrench:      | In progress   |
+
+
 
 
 
