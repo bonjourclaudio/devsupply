@@ -19,7 +19,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
   * [x] Routing
   * [x] NavigationBar 
   * [x] Footer
-  * [ ] Home Page
+  * [ ] Home Page :wrench:
   * [ ] ... 
 - [ ] Testing
 
