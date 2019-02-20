@@ -12,16 +12,16 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 # <a name="tasks">:checkered_flag: Tasks</a>
 
-- [x] [Project structure](#setup)
-- [ ] Logo
-- [x] [Design Schema](#design)
+- [x] :page_with_curl: [Project structure](#setup)
+- [ ] :jack_o_lantern: Logo
+- [x] pencil2: [Design Schema](#design)
 - [ ] :seedling: Development:
   * [x] Routing
   * [x] NavigationBar 
   * [x] Footer
   * [ ] Home Page :hatching_chick:
   * [ ] ... 
-- [ ] Testing
+- [ ] :mag: Testing
 
 
 
