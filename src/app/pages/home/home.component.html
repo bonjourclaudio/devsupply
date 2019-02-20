@@ -2,9 +2,8 @@
   <h1><span>DevSupply</span>Welcome, developer</h1>
 
   <h2>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure debitis earum
-    quod hic maxime ratione cum iusto. Alias ipsum ipsa quaerat fuga fugiat
-    dolore vel repudiandae vitae optio, quod cumque.
+    DevSupply helps developers with their work, improving their skills and
+    staying up-to-date!
   </h2>
 
   <div class="search">
@@ -18,7 +17,7 @@
       *ngIf="!openInput"
       class="search-input"
       id="search-input"
-      placeholder="Search"
+      placeholder="Search for a snippet, example, keyword"
       [(ngModel)]="searchValue"
       (keydown.enter)="search()"
       (keydown.esc)="toggleInput()"
@@ -35,9 +34,11 @@
   <div class="wrapper">
     <h2 class="section__title">EXPLORE</h2>
     <p class="section__intro">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi
-      possimus repellendus minima numquam quaerat quia, nulla deserunt culpa
-      inventore aliquam.
+      Our goal is to build a platform that helps developers with their everyday
+      work. <br />Looking for an Angular-Service example? - DevSupply has it
+      covered.<br />
+      Always curious for new technology and hungry to learn something new? Visit
+      the DevSupply-Blog! <br />DevSupply helps improving your skills!
     </p>
     <div class="box__grid">
       <article class="box">
@@ -45,8 +46,7 @@
           ><i class="fas fa-archive fa-3x"></i>
           <h3 class="box__title">Resources</h3>
           <p>
-            Duis neque leo cursus ac libero ac imperdiet bibendum nisl mauris
-            neque diam vulputate nem.
+            Here you'll find a wide palette of snippets, examples and tutorials.
           </p>
         </a>
       </article>
@@ -55,8 +55,7 @@
           ><i class="fas fa-blog fa-3x"></i>
           <h3 class="box__title">Blog</h3>
           <p>
-            Duis neque leo cursus ac libero ac imperdiet bibendum nisl mauris
-            neque diam vulputate nem.
+            Visit our blog for interesting articles created by the community!
           </p>
         </a>
       </article>
@@ -65,8 +64,8 @@
           ><i class="fas fa-drafting-compass fa-3x"></i>
           <h3 class="box__title">Templates</h3>
           <p>
-            Duis neque leo cursus ac libero ac imperdiet bibendum nisl mauris
-            neque diam vulputate nem.
+            Kickstart your project: Search for a template suiting your idea and
+            get started - don't waste any time!
           </p>
         </a>
       </article>
