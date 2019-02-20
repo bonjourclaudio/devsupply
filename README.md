@@ -12,7 +12,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 # <a name="tasks">Tasks</a>
 
-- [x] Project Setup
+- [x] [Project structure](#setup)
 - [ ] Logo
 - [x] [Design Schema](#design)
 - [ ] :seedling: Development:
@@ -25,7 +25,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 # <a name="documentation">Documentation</a>
 
-## Project structure
+## <a name="setup">Project structure</a>
 
 ...
 
