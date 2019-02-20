@@ -14,7 +14,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 - [x] :page_with_curl: [Project structure](#setup)
 - [ ] :jack_o_lantern: Logo
-- [x] pencil2: [Design Schema](#design)
+- [x] :pencil2: [Design Schema](#design)
 - [ ] :seedling: Development:
   * [x] Routing
   * [x] NavigationBar 
