@@ -18,8 +18,9 @@
 
   .nav-brand {
     .nav-link {
-      font-size: 140%;
+      font-size: 2em;
       font-weight: bold;
+      font-family: $font-secondary;
 
       #accent {
         color: $color-accent;

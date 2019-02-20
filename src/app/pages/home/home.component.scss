@@ -23,6 +23,46 @@
     padding: 20px;
     width: 76%;
   }
+
+  .search {
+    .search-input {
+      font-family: $font-primary;
+      font-size: 120%;
+      @include borderShadow();
+      background: $grey;
+      height: 30px;
+      padding: 20px;
+      margin-left: 20px;
+      width: 20vw;
+      @include easeIn();
+    }
+
+    .search-input-btn {
+      height: 30px;
+      background: $color-success;
+      @include borderShadow();
+      padding: 20px;
+      position: absolute;
+      @include easeIn();
+
+      &:hover {
+        cursor: pointer;
+        background-color: darken($color-success, 7);
+      }
+    }
+
+    i {
+      &:hover {
+        color: darken($color: #ffffff, $amount: 10);
+        transform: scale(0.97);
+        cursor: pointer;
+      }
+
+      &:active {
+        transform: scale(0.92);
+      }
+    }
+  }
 }
 
 // WRAPPER
@@ -36,6 +76,7 @@
 .section {
   background: white;
   @include borderShadow();
+  height: 70vh;
   padding: 60px 0;
 
   // TITLE
@@ -63,6 +104,7 @@
 
 // BOX ICONS
 .box {
+  margin-top: 50px;
   display: flex;
   flex: 1 0 100%;
   margin-bottom: 20px;
@@ -75,30 +117,10 @@
     justify-content: space-between;
   }
 
-  &__more {
-    color: $color-accent;
-  }
-
   &__content {
     color: $color-primary;
     text-align: center;
     padding: 20px;
-
-    .box__more {
-      i {
-        padding-left: 3px;
-      }
-    }
-
-    &:hover {
-      .box__more {
-        color: darken($color-accent, 5%);
-        i {
-          padding-left: 7px;
-          transition: all 0.2s ease-in-out;
-        }
-      }
-    }
   }
 
   // media query 700px
