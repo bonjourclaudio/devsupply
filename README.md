@@ -10,7 +10,7 @@
 
 DevSupply is a platform for developers. You can find resources such as code snippets, tutorials, examples and templates.
 
-# <a name="tasks">Tasks</a>
+# <a name="tasks">:checkered_flag: Tasks</a>
 
 - [x] [Project structure](#setup)
 - [ ] Logo
@@ -19,7 +19,7 @@ DevSupply is a platform for developers. You can find resources such as code snip
   * [x] Routing
   * [x] NavigationBar 
   * [x] Footer
-  * [ ] Home Page :wrench:
+  * [ ] Home Page :hatching_chick:
   * [ ] ... 
 - [ ] Testing
 
@@ -28,7 +28,9 @@ DevSupply is a platform for developers. You can find resources such as code snip
 
 | Emoji         | Meaning       | 
 | ------------- |:-------------:|
-| :wrench:      | In progress   |
+|   :egg:            | Unplanned     |
+| :hatching_chick: | In progress   |
+| :hatched_chick:  | Done          |
 
 
 
